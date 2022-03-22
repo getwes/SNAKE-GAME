@@ -15,10 +15,23 @@ body{
     background-color: black;
 }
 
-#game-bord{
-
-    background-color: gray;
+#game-board{
+    background-color: rgb(185, 180, 180);
     height: 100vmin;
     width: 100vmin;
 
+    display: grid;
+    grid-template-columns:repeat(21,1fr);
+    grid-template-rows: repeat(21,1fr);
+
+}
+
+.snake {
+    background-color: green;
+    border: 0.25vmin solid black;
+}
+
+.food{
+    background-color: red;
+    border: 0.25vmin solid black;
 }
