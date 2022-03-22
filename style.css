@@ -14,3 +14,11 @@ body{
     align-items: center;
     background-color: black;
 }
+
+#game-bord{
+
+    background-color: gray;
+    height: 100vmin;
+    width: 100vmin;
+
+}
