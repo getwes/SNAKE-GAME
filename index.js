@@ -1,1 +1,3 @@
-const gameboard = document.getElementById('game-board')
+//const gameboard = document.getElementById('game-board') 
+
+window.requestAnimationFrame
